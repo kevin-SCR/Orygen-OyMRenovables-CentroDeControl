@@ -1,287 +1,50 @@
+
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Orygen-OyMRenovables-CentroDeControl</title>
-  <!-- Font -->
+  <title>Centro de Control - Plan de Contingencia</title>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
-  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-  <!-- CUSTOM CSS -->
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { background-color: #000; color: white; font-family: 'Oswald', sans-serif; margin: 0; padding: 0; }
+    h2 { text-align: center; color: gold; margin-top: 2rem; }
+    .container { padding: 2rem; }
+    .tarjeta { background-color: #1c1c1c; border: 2px solid gold; border-radius: 12px; padding: 1rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+  </style>
 </head>
-
 <body>
-
-  <div class="menu-btn">
-    <i class="fas fa-bars fa-2x"></i>
-  </div>
-
   <div class="container">
-    <!-- Navigation -->
-    <nav class="nav-main">
-      <!-- Brand -->
-      <a href="https://kevin-scr.github.io/Orygen-OyMRenovables-CentroDeControl/" target=”_blank”  rel="noopener">
-        <img src="img/ORYGEN_logo_B_Simbolo.png" alt="Newkev Logo" class="nav-brand">
-      </a>
-      <!-- Left Nav -->
-      <ul class="nav-menu">
-        <li>
-          <a href="#contingencias">Centro de Control</a>
-        </li>
-        <li>
-          <a href="#">Huinco</a>
-        </li>
-        <li>
-          <a href="#">Matucana</a>
-        </li>
-        <li>
-          <a href="#">Callahuanca</a>
-        </li>
-        <li>
-          <a href="#">Moyopamapa</a>
-        </li>
-        <li>
-          <a href="#">Huampani</a>
-        </li>
-        <li>
-          <a href="#">HER 1 Huampani</a>
-        </li>
-        <li>
-          <a href="#">Chimay</a>
-        </li>
-        <li>
-          <a href="#">Yanango</a>
-        </li>
-      </ul>
-
-      <!-- Right Nav -->
-      <ul class="nav-menu-right">
-        <li>
-          <a href="#">
-            <i class="fas fa-reply-all"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <hr>
-
-    <!-- SHOWCASE -->
-    <header class="showcase">
-      <h2>¡Asombrosas Noticias Hoy! ^^)</h2>
-      <p>Esto solo es una prototipo para lograr hacer lo inimaginable. !Se vendran novedades! 力</p>
-      <a href="#" class="btn">
-        Regístrate<i class="fas fa-chevron-right"></i>
-      </a>
-    </header>
-
-    
-<section id="contingencias" style="padding: 2rem; background-color: #111; color: white;">
-  <h2 style="text-align:center; color: gold;">Plan de Contingencia - Centro de Control</h2>
-  <div id="tarjetas-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
-    <!-- Las tarjetas se cargarán dinámicamente desde Google Sheets -->
-  </div>
-</section>
-
-
-
-    <!-- Follow -->
-    <section class="social">
-      <p>Envianos Nuevas Noticias</p>
-      <div class="links">
-        <a href="https://www.whatsapp.com" target=”_blank” rel="noopener">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-        <a href="https://gmail.com" target=”_blank” rel="noopener">
-          <i class="far fa-envelope"></i>
-        </a>
-        <a href="https://kevin-scr.github.io/Orygen-OyMRenovables-CentroDeControl/" target=”_blank” rel="noopener">
-          <i class="fab fa-html5"></i>
-        </a>
+    <section id="contingencias">
+      <h2>Plan de Contingencia - Centro de Control</h2>
+      <div id="tarjetas-container" class="grid">
+        <!-- Tarjetas se insertan dinámicamente -->
       </div>
     </section>
   </div>
-
-  <!-- Footer Links -->
-  <div class="footer-links">
-    <div class="footer-container">
-      <ul>
-        <li>
-          <a href="#">
-            <h3>Entrada #1</h3>
-          </a>
-        </li>
-        <li>
-          <a href="#contingencias">Centro de Control</a>
-        </li>
-        <li>
-          <a href="#">Huinco</a>
-        </li>
-        <li>
-          <a href="#">Matucana</a>
-        </li>
-        <li>
-          <a href="#">Callahuanca</a>
-        </li>
-        <li>
-          <a href="#">Moyopamapa</a>
-        </li>
-        <li>
-          <a href="#">Huampani</a>
-        </li>
-        <li>
-          <a href="#">HER 1 Huampani</a>
-        </li>
-        <li>
-          <a href="#">Chimay</a>
-        </li>
-        <li>
-          <a href="#">Yanango</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">
-            <h3>Entrada #2</h3>
-          </a>
-        </li>
-        <li>
-          <a href="#contingencias">Centro de Control</a>
-        </li>
-        <li>
-          <a href="#">Huinco</a>
-        </li>
-        <li>
-          <a href="#">Matucana</a>
-        </li>
-        <li>
-          <a href="#">Callahuanca</a>
-        </li>
-        <li>
-          <a href="#">Moyopamapa</a>
-        </li>
-        <li>
-          <a href="#">Huampani</a>
-        </li>
-        <li>
-          <a href="#">HER 1 Huampani</a>
-        </li>
-        <li>
-          <a href="#">Chimay</a>
-        </li>
-        <li>
-          <a href="#">Yanango</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">
-            <h3>Entrada #3</h3>
-          </a>
-        </li>
-        <li>
-          <a href="#contingencias">Centro de Control</a>
-        </li>
-        <li>
-          <a href="#">Huinco</a>
-        </li>
-        <li>
-          <a href="#">Matucana</a>
-        </li>
-        <li>
-          <a href="#">Callahuanca</a>
-        </li>
-        <li>
-          <a href="#">Moyopamapa</a>
-        </li>
-        <li>
-          <a href="#">Huampani</a>
-        </li>
-        <li>
-          <a href="#">HER 1 Huampani</a>
-        </li>
-        <li>
-          <a href="#">Chimay</a>
-        </li>
-        <li>
-          <a href="#">Yanango</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">
-            <h3>Entrada #4</h3>
-          </a>
-        </li>
-        <li>
-          <a href="#contingencias">Centro de Control</a>
-        </li>
-        <li>
-          <a href="#">Huinco</a>
-        </li>
-        <li>
-          <a href="#">Matucana</a>
-        </li>
-        <li>
-          <a href="#">Callahuanca</a>
-        </li>
-        <li>
-          <a href="#">Moyopamapa</a>
-        </li>
-        <li>
-          <a href="#">Huampani</a>
-        </li>
-        <li>
-          <a href="#">HER 1 Huampani</a>
-        </li>
-        <li>
-          <a href="#">Chimay</a>
-        </li>
-        <li>
-          <a href="#">Yanango</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <h3>&copy; 2025 Kevin S Cardenas R</h3>
-  </footer>
-
-  <!-- Scroll Reveal -->
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <!-- CUSTOM JS -->
-  <script src="main.js"></script>
-
-
-
 <script>
   const CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS3h9M3E4v-rLRpDXWyi_JgDvgDYjNDsP5Eg5I3sM33u3RQG_cB8U0f8OAeR0y1iQ/pub?gid=1468723338&single=true&output=csv";
 
   function parseCSV(data) {
-  const rows = [];
-  const lines = data.split(/\r?\n/);
-  const headers = lines[0].split(',');
-
-  for (let i = 1; i < lines.length; i++) {
-    const cols = lines[i].match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g);
-    if (!cols || cols.length < 7) continue;
-    rows.push({
-      sistema: cols[0]?.replace(/(^"|"$)/g, ''),
-      ubicacion: cols[1]?.replace(/(^"|"$)/g, ''),
-      contingencia: cols[2]?.replace(/(^"|"$)/g, ''),
-      acciones: cols[3]?.replace(/(^"|"$)/g, ''),
-      responsable: cols[4]?.replace(/(^"|"$)/g, ''),
-      documento: cols[5]?.replace(/(^"|"$)/g, ''),
-      registro: cols[6]?.replace(/(^"|"$)/g, '')
-    });
+    const rows = [];
+    const lines = data.split(/\r?\n/);
+    for (let i = 1; i < lines.length; i++) {
+      const cols = lines[i].match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g);
+      if (!cols || cols.length < 7) continue;
+      rows.push({
+        sistema: cols[0]?.replace(/(^"|"$)/g, ''),
+        ubicacion: cols[1]?.replace(/(^"|"$)/g, ''),
+        contingencia: cols[2]?.replace(/(^"|"$)/g, ''),
+        acciones: cols[3]?.replace(/(^"|"$)/g, '').replace(/;/g, '<br>'),
+        responsable: cols[4]?.replace(/(^"|"$)/g, ''),
+        documento: cols[5]?.replace(/(^"|"$)/g, '').replace(/;/g, '<br>'),
+        registro: cols[6]?.replace(/(^"|"$)/g, '')
+      });
+    }
+    return rows;
   }
-  return rows;
-  }
-
 
   function generarTarjetas(datos) {
     const contenedor = document.getElementById("tarjetas-container");
@@ -289,7 +52,7 @@
     datos.forEach(item => {
       if (!item.sistema.trim()) return;
       const tarjeta = document.createElement("div");
-      tarjeta.style.cssText = "background-color:#1c1c1c;border:2px solid gold;border-radius:12px;padding:1rem;";
+      tarjeta.className = "tarjeta";
       tarjeta.innerHTML = `
         <h3 style="color:gold;">Sistema: ${item.sistema}</h3>
         <p><strong>Ubicación:</strong> ${item.ubicacion}</p>
@@ -312,6 +75,4 @@
     .catch(err => console.error("Error al cargar el CSV:", err));
 </script>
 </body>
-
-
 </html>
